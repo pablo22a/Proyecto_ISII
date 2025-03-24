@@ -1,0 +1,122 @@
+body {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+* {
+    font-family: OpenSans;
+    box-sizing: border-box;
+}
+
+form {
+    width: 600px;
+    border: 2px solid #000;
+    padding: 5rem;
+    background-color: #4682ca;
+    border: none;
+    border-radius: 20px;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+hr {
+    border-color: #fff;
+    margin: 10px 0px 10px 0px;
+}
+
+h1 {
+    display: block;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    font-size: 24px;
+    text-align: center;
+}
+
+label {
+    color: #000;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 300;
+}
+
+input {
+    display: block;
+    border: 2px solid #fff;
+    width: 95%;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #cbab58;
+}
+
+.olvide-contraseña {
+    float: right;
+}
+
+h2 {
+    margin-top: 80px;
+}
+
+button {
+    padding: .5rem;
+    border: none;
+    width: 40%;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.iniciar-sesion {
+    background-color: #fff;
+    float: left;
+}
+
+.regresar {
+    background-color: #000;
+    color: #fff;
+    float: right;
+}
+
+button:hover {
+    background-color: #cbab58;
+    color: #fff;
+}
+
+.btn-centrar {
+    display: flex;
+    justify-content: center;
+}
+
+.error {
+    background-color: #ec1c1c;
+    color: #000;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.success {
+    background-color: #35b911;
+    color: #000;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}

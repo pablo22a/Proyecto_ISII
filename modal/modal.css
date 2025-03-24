@@ -1,0 +1,101 @@
+/* Estilos generales para todas las ventanas modal */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 1% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Estilos para modificar y agregar */
+
+.modal-edit-add input[type="text"],
+.modal-edit-add input[type="number"],
+.modal-edit-add input[type="date"] {
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.modal-edit-add button[type="submit"],
+.modal-edit-add button[type="button"] {
+    width: 30%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.modal-edit-add button[type="submit"] {
+    background-color: #067bff;
+}
+
+.modal-edit-add button[type="button"] {
+    background-color: #888;
+}
+
+/*  Estilos para eliminar */
+
+.modal-delete button[type="submit"],
+.modal-delete button[type="button"] {
+    width: 30%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.modal-delete button[type="submit"] {
+    background-color: #f62c2c;
+}
+
+.modal-delete button[type="button"] {
+    background-color: #888;
+}
+
+
+
+
+
+
+
+
+
+
+

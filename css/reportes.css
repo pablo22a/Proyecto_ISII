@@ -1,0 +1,55 @@
+body {
+    font-family: sans-serif;
+    position: relative;
+    background: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente para el texto */
+}
+
+.watermark {
+    position: absolute;
+    top: 50%; /* Centrado verticalmente */
+    left: 50%; /* Centrado horizontalmente */
+    transform: translate(-50%, -50%) rotate(-45deg); /* Inclina el texto 45 grados y centra */
+    font-size: 5em; /* Ajusta el tamaño del texto */
+    color: rgba(0, 0, 0, 0.1); /* Color negro con baja opacidad */
+    z-index: -1; /* Coloca el texto detrás del contenido */
+    white-space: nowrap; /* Asegura que el texto no se envuelva */
+}
+
+.reportes {
+    width: 100%;
+    border-collapse: collapse;
+}
+.reportes th,
+.reportes td {
+    padding: 10px;
+    text-align: center;
+}
+.reportes th {
+    background-color: #4682ca;
+}
+.reportes td {
+    border-bottom: 1px solid #bed1f7;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative; /* Asegura que el contenedor contenga los elementos en su posición */
+    z-index: 1; /* Asegura que el contenido esté por encima de la marca de agua */
+}
+.header {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+.header img {
+    width: 300px;
+    height: auto;
+    vertical-align: top;
+    margin-right: 10px;
+}
+.header h1 {
+    display: inline-block;
+    margin: 0;
+    font-size: 1.5em;
+    vertical-align: middle;
+}
